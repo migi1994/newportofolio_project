@@ -1,0 +1,235 @@
+body{
+    overflow-x: hidden;
+    background-color:#1c3941;
+     
+}
+  .card {
+  
+     object-fit: cover;
+     padding: 42px;
+     background-color:#ffffff
+  }
+
+
+  #todo-img{
+    
+     height: 190px;
+  }
+
+.hi{ 
+    font-family: sans-serif;
+    position: relative;
+    top: 12px;
+      left: -82px;
+}
+.carousel-caption h3{
+    position: relative;
+       font-family: sans-serif;
+     
+    
+   
+      
+}
+#Skill{
+    animation: fade linear both;
+    animation-timeline: view(block);
+    animation-range: cover 5% cover 40%;
+}
+
+#skills{
+    animation: fade linear both;
+    animation-timeline: view(block);
+    animation-range: cover 5% cover 40%;
+  }
+#About{
+    animation: fade linear both;
+    animation-timeline: view(block);
+    animation-range: cover 5% cover 40%;
+  }
+#about-me{
+    animation: fade linear both;
+    animation-timeline: view(block);
+    animation-range: cover 5% cover 40%;
+  }
+  #projects{
+    animation: fade linear both;
+    animation-timeline: view(block);
+    animation-range: cover 5% cover 40%;
+  }
+  #card-container{
+    animation: fade linear both;
+    animation-timeline: view(block);
+    animation-range: cover 5% cover 40%;
+  }
+
+@keyframes fade {
+     from{
+         opacity: 0;
+     }
+     to{
+         opacity: 1;
+     }
+     0%{
+         
+        opacity: 0;
+     }
+
+}
+.carousel-caption{
+         display: flex;
+          flex-direction: column;
+          align-items: center;
+         justify-content: center;
+      position: absolute;
+      top:205px
+}
+.carousel-caption h1{
+    position: relative;
+      left: 22px;
+      margin-right: 50px;
+      color:rgb(243, 167, 52)
+}
+
+
+.carousel-caption button {
+     border:2px solid rgb(87, 99, 96);
+      background-color: rgba(255, 0, 0, 0);
+      padding: 8px 35px;
+      color: white;
+      font-weight: bold;
+}
+
+.container .about-img{
+      position: relative;
+      bottom: 18px;
+    clip-path: circle(50% at 50% 60%);
+    box-shadow: rgb(22, 32, 43) 0px 20px 30px -10px;
+    
+      border-radius: 10px;
+}
+.container p{
+      padding-top: 20px;
+}
+ .card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#Rates1:hover,#Rates2:hover ,#Rates3:hover ,#Rates4:hover{
+       transform: scale();
+    box-shadow: rgba(0, 0, 0, 4.959) 0px 5px 35px;
+}
+
+
+
+
+
+.btn-primary {
+     background-color: rgba(0, 255, 55, 0);
+     color: black;
+     border:1px solid rgb(8, 145, 115)
+}
+.btn-primary:hover{
+     background-color: #1c3941;
+}
+@media screen and (max-width:1050px){
+   
+
+   
+    #card-container{
+        position: relative;
+       
+         display: flex;
+          
+         align-items: center;
+         gap:70px;
+      }
+}
+
+@media screen and (max-width:850px){
+ 
+    .carousel-caption{
+         padding-top: 55px;
+        position: absolute;
+        top:65px;
+        z-index: 1;
+        
+     
+  }
+  .carousel-caption , h1 h6 p button{
+   
+        padding-top: 72px;
+      font-size: 15px;
+  }
+  #card-container{
+  
+    position: relative;
+   
+     display: flex;
+      
+     align-items: center;
+     gap:70px;
+  }
+   .hi {
+    position: relative;
+    left:-70px;
+    padding-bottom: 9px;
+    width: 100%;
+}
+.carousel-caption h1{
+   
+  position: relative;
+  left:21px;
+  margin-bottom: 2px;
+ 
+
+} 
+}
+
+@media screen and (max-width:550px){
+    .carousel-caption{
+         position: absolute;
+    top:50px;
+    padding-right: 22px;
+    }
+    .carousel-caption h1 {
+        position: relative;
+    bottom: 5px;
+      font-size: 27px;
+  }
+  .carousel-caption h6{
+    font-size: 12px;
+  }
+  .carousel-caption h3{
+    position: relative;
+    bottom: 7px;
+    font-size: 9px;
+  }
+   .hi {
+      position: relative;
+      left:-20px;
+      padding-bottom: 9px;
+      width: 100%;
+  }
+  .carousel-caption h1{
+     font-size: 20px;
+       left: 30px;
+    position: relative;
+     align-items: center;
+    margin-bottom: 2px;
+   
+  
+  } 
+  .card ,img{
+     
+      
+        object-fit: cover;
+     }   
+  }
+  .carousel-caption h3{
+    font-size: 12px;
+   position: relative;
+    align-items: center;
+  
+  
+ 
+ } 
+
